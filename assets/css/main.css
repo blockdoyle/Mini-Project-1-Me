@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: green;
+    line-height: 60px;
+}
+
+nav {
+    text-align: right;
+}
+
+li {
+    display: inline;
+    margin-right: 30px;
+    font-size: 18px;
+    color: white;
+    font-weight: bolder;
+}
