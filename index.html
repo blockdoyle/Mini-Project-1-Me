@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My first project</title>
-    <link rel="stylesheet" href="assets/css/main.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/main.css" />
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">GitHub</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
     </header>
-</body>
+    <main>
+      <div id="page-title">
+        <h1>Brock Lockhart-Doyle</h1>
+        <h2>Welcome to my website!</h2>
+      </div>
+      <img src="assets/images/brock.jpeg" alt="A picture of me" />
+      <article id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name: </label>
+            <input type="text" id="name"><br>
+            <label for="name">Email: </label>
+            <input type="text" id="name"><br>
+            <input type="submit">
+        </form>
+      </article>
+    </main>
+    <footer>
+        <p>© 2023 <span style="text-decoration: underline; font-weight: bold;">Brock Lockhart-Doyle</span></p>
+    </footer>
+  </body>
 </html>
